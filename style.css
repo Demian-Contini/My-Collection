@@ -1,0 +1,54 @@
+:root {
+  --bg: #0f172a;
+  --bg-elevated: #111827;
+  --text: #e2e8f0;
+  --text-muted: #94a3b8;
+  --accent: #c9a876;
+  --radius: 8px;
+
+  --font-heading: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.5;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: var(--bg-elevated);
+}
+
+header h1 {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
