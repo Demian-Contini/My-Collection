@@ -174,3 +174,100 @@ nav a:hover {
   background: var(--accent);
   color: var(--bg);
 }   
+
+
+/* --------------------------- MUSIC ------------------------ */
+
+#music {
+  padding: 80px 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#music h2, #music > p:first-of-type {
+  font-family: var(--font-heading);
+}
+
+.music-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.music-card {
+  background: var(--bg-elevated);
+  border-left: 3px solid var(--accent);
+  padding: 20px;
+  border-radius: var(--radius);
+}
+
+.music-card h3 {
+  font-family: var(--font-heading);
+  margin-bottom: 8px;
+}
+
+.music-card p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* -------------------- REFLECTIONS -------------------------- */
+
+#reflections {
+  padding: 80px 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.reflections-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.reflection {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-style: italic;
+  color: var(--text);
+  position: relative;
+  padding: 0 20px;
+}
+
+.reflection::before,
+.reflection::after {
+  content: '"';
+  color: var(--accent);
+  font-size: 2rem;
+  opacity: 0.5;
+}
+
+/* -------------------------- ABOUT ME -------------------------------- */
+#about-me {
+  padding: 80px 40px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#about-me h2 {
+  font-family: var(--font-heading);
+  margin-bottom: 20px;
+}
+
+#about-me p {
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+/* --------------------------------- FOOTER ------------------------------------ */
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--bg-elevated);
+}
