@@ -199,9 +199,16 @@ nav a:hover {
 
 .music-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   margin-top: 40px;
+}
+
+.music-card iframe {
+  width: 100%;
+  display: block;
+  border: none;
+  border-radius: var(--radius);
 }
 
 .music-card {
@@ -219,6 +226,22 @@ nav a:hover {
 .music-card p {
   color: var(--text-muted);
   font-size: 0.9rem;
+}
+
+.music-footer {
+  margin-top: 30px;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.music-footer a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+}
+
+.music-footer a:hover {
+  opacity: 0.8;
 }
 
 /* -------------------- REFLECTIONS -------------------------- */

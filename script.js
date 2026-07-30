@@ -1,3 +1,4 @@
+// ---------------- Movies ------------------
 const movies = [
   {
     title: "Peaceful Warrior",
@@ -18,6 +19,45 @@ const movies = [
     reflection: "Soul reminded me that my purpose isn't hidden in a single passion. Life begins when I become ready to truly live and appreciate the ordinary moments"
   }
 ];
+// ---------------- Musica ------------------
+const music = [
+  { artist: "Gojira", song: "Born in Winter", spotifyId: "" },
+  { artist: "Papa Roach", song: "Between Angels and Insects", spotifyId: "24z528iI9kZu5LbkLainjI" },
+  { artist: "Linkin Park", song: "Faint", spotifyId: "" },
+  { artist: "Slipknot", song: "Before I Forget", spotifyId: "" },
+  { artist: "Audioslave", song: "Like a Stone", spotifyId: "" },
+  { artist: "While She Sleeps", song: "Enlightenment (?)", spotifyId: "" },
+  { artist: "Three Days Grace", song: "Never Too Late", spotifyId: "" },
+  { artist: "Seether", song: "Words as Weapons", spotifyId: "" },
+  { artist: "Chevelle", song: "Send the Pain Below", spotifyId: "" },
+  { artist: "Nothing More", song: "Fade In / Fade Out", spotifyId: "" },
+  { artist: "Muse", song: "Map of the Problematique", spotifyId: "" },
+  { artist: "Imagine Dragons", song: "Hear Me", spotifyId: "" }
+];
+
+function createMusicCard(item) {
+  return `
+    <div class="music-card">
+      <h3>${item.artist}</h3>
+      <p class="song-title">${item.song}</p>
+      <iframe
+        src="https://open.spotify.com/embed/track/${item.spotifyId}?theme=0"
+        width="100%"
+        height="152"
+        frameborder="0"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+      </iframe>
+    </div>
+  `;
+}
+
+function renderMusic() {
+  const container = document.querySelector(".music-container");
+  container.innerHTML = music.map(createMusicCard).join("");
+}
+
+renderMusic(); // ---------------- RenderMusic ------------------
 
 function createMovieCard(movie, index) {
   return `
@@ -47,4 +87,4 @@ function renderMovies() {
   });
 }
 
-renderMovies();
+renderMovies();// ---------------- RenderMovie ------------------
