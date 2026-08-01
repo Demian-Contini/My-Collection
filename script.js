@@ -59,6 +59,34 @@ function renderMusic() {
 
 renderMusic(); // ---------------- RenderMusic ------------------
 
+// ---------------- Reflexion ------------------
+const reflections = [
+  {
+    text: "A young fish swims up to an older fish and asks, \"I'm trying to find the ocean.\" The older fish smiles and replies, \"The ocean? You're in it right now.\" The young fish looks around and says, \"This? This is water. What I want is the ocean.\"",
+    source: "Soul"
+  },
+  {
+    text: "Become the world you're seeking.",
+    source: null
+  },
+  {
+    text: "Growth is a spiral, not a straight line.",
+    source: null
+  }
+];
+
+function createReflection(item) {
+  const sourceTag = item.source ? `<span>${item.source}:</span> ` : "";
+  return `<blockquote class="reflection">${sourceTag}${item.text}</blockquote>`;
+}
+
+function renderReflections() {
+  const container = document.querySelector(".reflections-container");
+  container.innerHTML = reflections.map(createReflection).join("");
+}
+
+renderReflections();// ---------------- RenderReflection ------------------
+
 function createMovieCard(movie, index) {
   return `
     <div class="movie-card">

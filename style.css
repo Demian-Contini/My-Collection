@@ -277,6 +277,12 @@ nav a:hover {
   opacity: 0.5;
 }
 
+.reflection span {
+  color: var(--accent);
+  font-weight: 600;
+  font-style: normal;
+}
+
 /* -------------------------- ABOUT ME -------------------------------- */
 #about-me {
   padding: 80px 40px;
