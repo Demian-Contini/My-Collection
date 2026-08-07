@@ -17,7 +17,43 @@ const movies = [
     image: "assets/images/Soul.jpeg",
     quote: "The spark isn't your purpose",
     reflection: "Soul reminded me that my purpose isn't hidden in a single passion. Life begins when I become ready to truly live and appreciate the ordinary moments"
-  }
+  },
+    {
+    title: "Daredevil",
+    image: "assets/images/Daredevil.jpg",
+    quote: "A man without fear is a man without hope.",
+    reflection: "Matt Murdock taught me that being 'blind' isn't the same as not seeing — sometimes what we lack becomes the reason we learn to perceive things differently."
+  },
+  {
+    title: "The Punisher",
+    image: "assets/images/The-Punisher.jpg",
+    quote: "One batch, two batch, penny and dash.",
+    reflection: "Frank Castle's story showed me how far pain can take someone when it's left unprocessed — and how important it is to face it instead of letting it define every choice."
+  },
+  {
+    title: "Iron Fist",
+    image: "assets/images/Iron-Fist.jpg",
+    quote: "The Iron Fist is a weapon we wield in the battle against evil.",
+    reflection: "A reminder that discipline and inner training matter more than raw power — mastery comes from patience, not from rushing the process."
+  },
+  {
+    title: "Doctor Strange",
+    image: "assets/images/Dr-strange.jpg",
+    quote: "It's not about you.",
+    reflection: "Stephen Strange's arc taught me that real growth often starts by losing control of what defined you, and learning to build yourself again from a place of humility."
+  },
+  {
+    title: "Dragon Ball",
+    image: "assets/images/Dragon-Ball.jpg",
+    quote: "I don't fight out of hatred, I fight to protect what I love.",
+    reflection: "Dragon Ball was probably my first lesson in perseverance — Goku never stopped training or pushing his limits, and that idea that you can always keep growing stuck with me since childhood."
+  },
+  {
+    title: "Kung Fu Panda",
+    image: "assets/images/Kun-Fu-Panda.jpg",
+    quote: "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
+    reflection: "Po reminded me that you don't need to stop being who you are to become powerful — self-acceptance is often the real first step of any transformation."
+  },
 ];
 // ---------------- Musica ------------------
 const music = [
