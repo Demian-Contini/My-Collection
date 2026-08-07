@@ -57,18 +57,18 @@ const movies = [
 ];
 // ---------------- Musica ------------------
 const music = [
-  { artist: "Gojira", song: "Born in Winter", spotifyId: "" },
+  { artist: "Gojira", song: "Born in Winter", spotifyId: "1rDzUqMRA9VdGCIwzgfeh9" },
   { artist: "Papa Roach", song: "Between Angels and Insects", spotifyId: "24z528iI9kZu5LbkLainjI" },
-  { artist: "Linkin Park", song: "Faint", spotifyId: "" },
-  { artist: "Slipknot", song: "Before I Forget", spotifyId: "" },
-  { artist: "Audioslave", song: "Like a Stone", spotifyId: "" },
-  { artist: "While She Sleeps", song: "Enlightenment (?)", spotifyId: "" },
-  { artist: "Three Days Grace", song: "Never Too Late", spotifyId: "" },
-  { artist: "Seether", song: "Words as Weapons", spotifyId: "" },
-  { artist: "Chevelle", song: "Send the Pain Below", spotifyId: "" },
-  { artist: "Nothing More", song: "Fade In / Fade Out", spotifyId: "" },
-  { artist: "Muse", song: "Map of the Problematique", spotifyId: "" },
-  { artist: "Imagine Dragons", song: "Hear Me", spotifyId: "" }
+  { artist: "Linkin Park", song: "Faint", spotifyId: "7AB0cUXnzuSlAnyHOqmrZr" },
+  { artist: "Slipknot", song: "Before I Forget", spotifyId: "6wqJeItl3Vc3az4ZicSQAB" },
+  { artist: "Audioslave", song: "Like a Stone", spotifyId: "3YuaBvuZqcwN3CEAyyoaei" },
+  { artist: "While She Sleeps", song: "Enlightenment (?)", spotifyId: "6Wq1PHFSH02bF1dIBKswvj" },
+  { artist: "Three Days Grace", song: "Never Too Late", spotifyId: "3HE50TVRquwXe9yv2HFoNL" },
+  { artist: "Seether", song: "Words as Weapons", spotifyId: "0aYQsp1vZZcX0JBEJvKF7N" },
+  { artist: "Chevelle", song: "Send the Pain Below", spotifyId: "6dRAAG4sB71NAtVCHJep7s" },
+  { artist: "Nothing More", song: "Fade In / Fade Out", spotifyId: "/3HYs3wvhafGbyoGtLspEzr" },
+  { artist: "Muse", song: "Map of the Problematique", spotifyId: "5YXr4AGfUQpLSxtFSsKUh6" },
+  { artist: "Imagine Dragons", song: "Hear Me", spotifyId: "2OgOgEBfiZEj2XlIY2XD7f" }
 ];
 
 function createMusicCard(item) {
