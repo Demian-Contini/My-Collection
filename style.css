@@ -292,14 +292,18 @@ nav a:hover {
 
 #about-me h2 {
   font-family: var(--font-heading);
+  margin-bottom: 30px;
+}
+
+.about-content p {
+  color: var(--text-muted);
+  line-height: 1.7;
   margin-bottom: 20px;
 }
 
-#about-me p {
-  color: var(--text-muted);
-  line-height: 1.7;
+.about-content p:last-child {
+  margin-bottom: 0;
 }
-
 /* --------------------------------- FOOTER ------------------------------------ */
 
 footer {
